@@ -1,0 +1,63 @@
+/* styles.css */
+.dropdown-content {
+  /* display: none; */
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.movie-search {
+  position: relative;
+}
+
+.movie-search input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.movie-search .dropdown-content {
+  width: 300px;
+}
+/* styles.css */
+.movie-details {
+  margin-top: 20px;
+}
+
+.movie-details h2 {
+  margin-bottom: 10px;
+}
+
+.movie-details table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.movie-details td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.movie-details td:first-child {
+  font-weight: bold;
+  width: 30%;
+}
+
+.movie-details td:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
